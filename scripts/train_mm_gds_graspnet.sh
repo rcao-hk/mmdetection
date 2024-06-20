@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1,2 ./tools/dist_train.sh configs/mm_grounding_dino/grounding_dino_swin-t_finetune_8xb4_30e_graspnet.py 2 --work-dir /media/gpuadmin/rcao/result/uois/detection/GDS_v0.3.3

@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,2 ./tools/dist_train.sh ./configs/mm_grounding_dino/grounding_dino_swin-t_finetune_8xb4_30e_uoais_sim.py 2 --work-dir /media/gpuadmin/rcao/result/uois/detection/uoais_v0.2
